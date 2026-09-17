@@ -42,5 +42,8 @@ build:
   script:
     - echo "Building project..."
     - echo "OK"
+```  
+
 ### Скриншот успешного пайплайна
+
 ![Успешный пайплайн](img/pipeline.png)
