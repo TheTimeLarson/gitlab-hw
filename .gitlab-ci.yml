@@ -1,0 +1,21 @@
+stages:
+  - test
+  - build
+
+test:
+  stage: test
+  image: alpine:latest
+  tags:
+    - docker
+  script:
+    - echo "Running tests..."
+    - echo "OK"
+
+build:
+  stage: build
+  image: alpine:latest
+  tags:
+    - docker
+  script:
+    - echo "Building project..."
+    - echo "OK"
